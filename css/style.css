@@ -7,25 +7,65 @@
 main{
 }
 
-section{
+#fotoMilano{
   height: 100vh;
   width: 100vw;
   background-image: url(../img/milano.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-article{
-  position: absolute;
+#fotoNapoli{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/napoli.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fotoRoma{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/roma.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.milano{
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(233,233,240,0.2);
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(233,233,240,0.3);
+}
+
+.roma{
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(233,233,240,0.3);
+}
+
+.napoli{
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(233,233,240,0.3);
 }
 
 h2{
   text-align: center;
   position: relative;
-  top: 0%
-  /* background: green; */
+  top: calc(100% - 50%);
+  font-family: fantasy;
+  font-size: 6em;
+  color: white;
 }
